@@ -6,8 +6,15 @@ let userSelections = {};
 const outfits = [
   { id: 1, name: "Pink Shirt + White Cargo", occasion: "College", style: "Gen Z", image: "images/pink-shirt.jpg" },
   { id: 2, name: "Blazer & Pants Set", occasion: "Office", style: "Classic", image: "images/blazer-set.jpg" },
-  { id: 3, name: "Party Dress", occasion: "Party", style: "Minimalist", image: "images/party-dress.jpg" }
+  { id: 3, name: "Party Dress", occasion: "Party", style: "Minimalist", image: "images/party-dress.jpg" },
+  { id: 4, name: "Denim Jacket + Black Jeans", occasion: "College", style: "Classic", image: "images/denim-jacket.jpg" },
+  { id: 5, name: "Casual Polo + Chinos", occasion: "Office", style: "Minimalist", image: "images/polo-chinos.jpg" },
+  { id: 6, name: "Sequined Top + Skirt", occasion: "Party", style: "Gen Z", image: "images/sequin-top.jpg" },
+  { id: 7, name: "Oversized Hoodie + Cargo Pants", occasion: "College", style: "Minimalist", image: "images/hoodie-cargo.jpg" },
+  { id: 8, name: "Formal Shirt + Trousers", occasion: "Office", style: "Gen Z", image: "images/formal-shirt.jpg" },
+  { id: 9, name: "Satin Dress", occasion: "Party", style: "Classic", image: "images/satin-dress.jpg" }
 ];
+
 
 function botMessage(text, choices = []) {
   const msg = document.createElement("div");

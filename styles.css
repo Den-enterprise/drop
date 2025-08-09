@@ -49,3 +49,17 @@ body {
 .choice-btn:hover {
   background-color: #444;
 }
+
+.footer {
+  border-top: 1px solid #2c2c2e;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.footer img {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+.footer img:hover {
+  opacity: 1;
+}
